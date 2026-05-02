@@ -1,0 +1,20 @@
+[package]
+name = "streak-widget"
+version = "0.1.0"
+description = "A floating streak/counter desktop widget"
+authors = ["you"]
+license = ""
+repository = ""
+edition = "2021"
+rust-version = "1.60"
+
+[build-dependencies]
+tauri-build = { version = "1.5", features = [] }
+
+[dependencies]
+tauri = { version = "1.5", features = [ "system-tray", "shell-open", "window-all"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]
