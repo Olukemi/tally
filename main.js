@@ -290,7 +290,7 @@ function renderForm(c, title, saveAction) {
           <div class="segment-control">${typeOpts}</div>
         </div>
         <div id="extra-fields">${extraFields}</div>
-        ${c.id ? `<button class="btn-danger" id="btn-delete">Delete counter</button>` : ''}
+        ${c.id ? `<button class="btn-danger" id="btn-delete">Delete</button>` : ''}
       </div>
       <div class="form-footer">
         <button class="btn-primary" id="btn-save" data-action="${saveAction}">Save Changes</button>
