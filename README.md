@@ -8,6 +8,7 @@ A tiny always-on-top desktop widget for tracking the things that matter — stre
 <img width="197" height="148" alt="image" src="https://github.com/user-attachments/assets/b6df11c8-8d71-488c-855e-3f22b5735d17" />
 
 <img width="379" height="480" alt="image" src="https://github.com/user-attachments/assets/419c7a8b-2765-4cd8-94b1-636048e68417" />
+<img width="340" height="531" alt="image" src="https://github.com/user-attachments/assets/1dbf60bc-1ecf-46c6-aeeb-731237614ce0" />
 
 
 ## Features
