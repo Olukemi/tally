@@ -240,7 +240,7 @@ function renderAdd() {
   return renderForm({
     id: null, type: 'streak', label: '', startDate: todayISO(),
     targetDate: '', count: 0, emoji: '🔥'
-  }, 'New Counter', 'save-add');
+  }, 'New', 'save-add');
 }
 
 function renderForm(c, title, saveAction) {
